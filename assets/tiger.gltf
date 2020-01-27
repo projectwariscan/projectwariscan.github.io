@@ -1,0 +1,218 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 82158,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 15066,
+      "max": [
+        32.941368103027344,
+        180.29296875,
+        176.69476318359375
+      ],
+      "min": [
+        -32.941368103027344,
+        -0.20294857025146484,
+        -176.69476318359375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 15066,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 15066,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Microsoft GLTF Exporter 2.4.2.8",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 164316,
+      "byteOffset": 0,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 180792,
+      "byteOffset": 164316,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 180792,
+      "byteOffset": 345108,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 120528,
+      "byteOffset": 525900,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1,
+      "byteOffset": 0
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 646440,
+      "uri": "tiger.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "image0.png"
+    },
+    {
+      "uri": "image1.png"
+    },
+    {
+      "uri": "image2.png"
+    },
+    {
+      "uri": "image3.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "MASK",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseTexture": {
+            "index": 0
+          },
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      },
+      "extras": {
+        "MSFT_sRGBFactors": false
+      },
+      "name": "51",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicRoughnessTexture": {
+          "index": 3
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "mesh_id72",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "root"
+    },
+    {
+      "mesh": 0,
+      "name": "node_id71",
+      "rotation": [
+        -0.0,
+        0.6613006591796875,
+        -0.0,
+        0.7501209378242493
+      ],
+      "scale": [
+        0.004439216572791338,
+        0.004439217038452625,
+        0.004439219832420349
+      ],
+      "translation": [
+        0.03473646566271782,
+        -0.36171507835388184,
+        0.26340723037719727
+      ]
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9985
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "texture216",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "texture210",
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "name": "51_bc",
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "name": "51_mr",
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
